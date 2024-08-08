@@ -13,7 +13,7 @@ struct AuditionManager {
             
             guard talents is BadPersonality else {
                 print("안타깝지만 불합격입니다.")
-                throw TalentTypeError.notTalent
+                throw TalentTypeError.badPersonality
             }
             
             guard talents.acting != Level.A else {
