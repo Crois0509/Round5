@@ -1,8 +1,8 @@
 import Foundation
 
 class Person {
-    let name: String
-    let height: Int
+    var name: String
+    var height: Int
     
     init(name: String, height: Int) {
         self.name = name

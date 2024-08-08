@@ -6,11 +6,11 @@ class TalentedPersonWithBadPersonality: Person, Talent, BadPersonality {
     var acting: Level
     var frequancyOfCursing: Level
     
-    init(singing: Level, dancing: Level, acting: Level, frequancyOfCursing: Level) {
+    init(name: String, height: Int, singing: Level, dancing: Level, acting: Level, frequancyOfCursing: Level) {
         self.singing = singing
         self.dancing = dancing
         self.acting = acting
         self.frequancyOfCursing = frequancyOfCursing
-        super.init(name: "", height: 0)
+        super.init(name: name, height: height)
     }
 }

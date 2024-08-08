@@ -5,10 +5,10 @@ class TalentedPerson: Person, Talent {
     var dancing: Level
     var acting: Level
     
-    init(singing: Level, dancing: Level, acting: Level) {
+    init(name: String, height: Int, singing: Level, dancing: Level, acting: Level) {
         self.singing = singing
         self.dancing = dancing
         self.acting = acting
-        super.init(name: "", height: 0)
+        super.init(name: name, height: height)
     }
 }
