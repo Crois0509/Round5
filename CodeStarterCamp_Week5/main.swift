@@ -1,1 +1,22 @@
 import Foundation
+
+let yagom = TalentedPerson(name: "yagom", height: 100, singing: .B, dancing: .A, acting: .C)
+let noroo = Person(name: "noroo", height: 1000)
+let summer = TalentedPerson(name: "summer", height: 900, singing: .B, dancing: .B, acting: .B)
+let jamking = TalentedPerson(name: "jamking", height: 200, singing: .A, dancing: .C, acting: .C)
+let finnn = TalentedPersonWithBadPersonality(name: "finnn", height: 400, singing: .A, dancing: .A, acting: .A, frequancyOfCursing: .A)
+
+var manager: AuditionManager = AuditionManager(totalApplicantsList: [yagom,
+                                                                    noroo,
+                                                                    summer,
+                                                                    jamking,
+                                                                    finnn],
+                                               passedApplicantsList: [])
+
+do {
+    try manager.cast(to: yagom)
+} catch TalentTypeError.notTalent {
+    print("불합격 사유: 탤런트가 아님")
+} catch TalentTypeError.badPersonality {
+    print("불합격 사유: 인성에 문제가 있어보임")
+}

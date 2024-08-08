@@ -11,7 +11,7 @@ struct AuditionManager {
                 throw TalentTypeError.notTalent
             }
             
-            guard talents is BadPersonality else {
+            guard ((talents as? TalentedPersonWithBadPersonality) != nil) else {
                 print("안타깝지만 불합격입니다.")
                 throw TalentTypeError.badPersonality
             }
