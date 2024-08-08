@@ -2,5 +2,5 @@ import Foundation
 
 struct AuditionManager {
     let totalApplicantsList: [Person]
-    let passedApplicantsList: [Person] = []
+    var passedApplicantsList: [Person] = []
 }

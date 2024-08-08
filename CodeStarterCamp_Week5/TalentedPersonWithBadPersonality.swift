@@ -1,6 +1,6 @@
 import Foundation
 
-class 타: Person, Talent, BadPersonality {
+class TalentedPersonWithBadPersonality: Person, Talent, BadPersonality {
     var singing: Level
     var dancing: Level
     var acting: Level
