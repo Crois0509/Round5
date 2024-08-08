@@ -16,7 +16,6 @@
 		AA95B1082C64B0A300C7CDAC /* TalentedPersonWithBadPersonality.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1072C64B0A200C7CDAC /* TalentedPersonWithBadPersonality.swift */; };
 		AA95B10A2C64B13F00C7CDAC /* AuditionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1092C64B13F00C7CDAC /* AuditionManager.swift */; };
 		AA95B10C2C64B5B500C7CDAC /* TalentTypeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */; };
-		AA95B10E2C64C02000C7CDAC /* AuditionCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B10D2C64C02000C7CDAC /* AuditionCast.swift */; };
 		AA95B1102C64C58500C7CDAC /* MagicNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,6 @@
 		AA95B1072C64B0A200C7CDAC /* TalentedPersonWithBadPersonality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentedPersonWithBadPersonality.swift; sourceTree = "<group>"; };
 		AA95B1092C64B13F00C7CDAC /* AuditionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditionManager.swift; sourceTree = "<group>"; };
 		AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentTypeError.swift; sourceTree = "<group>"; };
-		AA95B10D2C64C02000C7CDAC /* AuditionCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditionCast.swift; sourceTree = "<group>"; };
 		AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +82,6 @@
 				AA95B1052C64AFF900C7CDAC /* TalentedPerson.swift */,
 				AA95B1072C64B0A200C7CDAC /* TalentedPersonWithBadPersonality.swift */,
 				AA95B1092C64B13F00C7CDAC /* AuditionManager.swift */,
-				AA95B10D2C64C02000C7CDAC /* AuditionCast.swift */,
 				AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */,
 				AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */,
 				AA1ECA1A2C636B1F0062A5AD /* main.swift */,
@@ -156,7 +153,6 @@
 				AA95B1082C64B0A300C7CDAC /* TalentedPersonWithBadPersonality.swift in Sources */,
 				AA95B0FE2C64AE0700C7CDAC /* Person.swift in Sources */,
 				AA95B1102C64C58500C7CDAC /* MagicNumber.swift in Sources */,
-				AA95B10E2C64C02000C7CDAC /* AuditionCast.swift in Sources */,
 				AA1ECA1B2C636B1F0062A5AD /* main.swift in Sources */,
 				AA95B10C2C64B5B500C7CDAC /* TalentTypeError.swift in Sources */,
 				AA95B1042C64AF8100C7CDAC /* BadPersonality.swift in Sources */,

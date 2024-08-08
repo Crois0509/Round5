@@ -7,10 +7,10 @@ let jamking = TalentedPerson(name: "jamking", height: 200, singing: .A, dancing:
 let finnn = TalentedPersonWithBadPersonality(name: "finnn", height: 400, singing: .A, dancing: .A, acting: .A, frequancyOfCursing: .A)
 
 var manager: AuditionManager = AuditionManager(totalApplicantsList: [yagom,
-                                                                    noroo,
-                                                                    summer,
-                                                                    jamking,
-                                                                    finnn],
+                                                                     noroo,
+                                                                     summer,
+                                                                     jamking,
+                                                                     finnn],
                                                passedApplicantsList: [])
 
 for applicants in manager.totalApplicantsList {
@@ -29,5 +29,6 @@ for applicants in manager.totalApplicantsList {
         print(error)
     }
 }
+
 
 manager.announcePassedApplicants()
