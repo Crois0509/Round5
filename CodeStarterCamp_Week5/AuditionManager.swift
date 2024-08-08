@@ -17,16 +17,19 @@ struct AuditionManager {
         
         guard talents.acting != Level.A else {
             print("축하드립니다! 합격입니다.")
+            print(MagicNumber.blank)
             return passedApplicantsList.append(talent)
         }
         
         guard talents.dancing != Level.A else {
             print("축하드립니다! 합격입니다.")
+            print(MagicNumber.blank)
             return passedApplicantsList.append(talent)
         }
         
         guard talents.singing != Level.A else {
             print("축하드립니다! 합격입니다.")
+            print(MagicNumber.blank)
             return passedApplicantsList.append(talent)
         }
         
