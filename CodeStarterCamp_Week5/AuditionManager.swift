@@ -1,7 +1,7 @@
 import Foundation
 
 struct AuditionManager {
-    let totalApplicantsList: [Person]
+    var totalApplicantsList: [Person]
     var passedApplicantsList: [Person] = []
     
     mutating func cast(to talent: Person) throws {
@@ -41,7 +41,7 @@ struct AuditionManager {
         
         print("""
     ---합격자 명단---
-    \(passList.joined())
+    \(passList.joined(separator: "\n"))
     ------------
     축하합니다!!
     """)
