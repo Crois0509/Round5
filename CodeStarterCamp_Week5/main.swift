@@ -14,9 +14,13 @@ var manager: AuditionManager = AuditionManager(totalApplicantsList: [yagom,
                                                passedApplicantsList: [])
 
 do {
-    try manager.cast(to: yagom)
+    try manager.cast(to: jamking)
 } catch TalentTypeError.notTalent {
     print("불합격 사유: 탤런트가 아님")
 } catch TalentTypeError.badPersonality {
     print("불합격 사유: 인성에 문제가 있어보임")
+} catch TalentTypeError.lackOfAbility {
+    print("불합격 사유: 능력치 부족")
+} catch {
+    print(error)
 }
