@@ -10,6 +10,7 @@
 		AA1ECA1B2C636B1F0062A5AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1ECA1A2C636B1F0062A5AD /* main.swift */; };
 		AA95B0FE2C64AE0700C7CDAC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B0FD2C64AE0700C7CDAC /* Person.swift */; };
 		AA95B1002C64AEC600C7CDAC /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B0FF2C64AEC600C7CDAC /* Level.swift */; };
+		AA95B1022C64AF1400C7CDAC /* Talent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1012C64AF1400C7CDAC /* Talent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		AA1ECA1A2C636B1F0062A5AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AA95B0FD2C64AE0700C7CDAC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AA95B0FF2C64AEC600C7CDAC /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		AA95B1012C64AF1400C7CDAC /* Talent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				AA95B0FD2C64AE0700C7CDAC /* Person.swift */,
 				AA95B0FF2C64AEC600C7CDAC /* Level.swift */,
+				AA95B1012C64AF1400C7CDAC /* Talent.swift */,
 				AA1ECA1A2C636B1F0062A5AD /* main.swift */,
 			);
 			path = CodeStarterCamp_Week5;
@@ -129,6 +132,7 @@
 				AA95B1002C64AEC600C7CDAC /* Level.swift in Sources */,
 				AA95B0FE2C64AE0700C7CDAC /* Person.swift in Sources */,
 				AA1ECA1B2C636B1F0062A5AD /* main.swift in Sources */,
+				AA95B1022C64AF1400C7CDAC /* Talent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
