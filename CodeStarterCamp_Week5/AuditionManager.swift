@@ -5,6 +5,8 @@ struct AuditionManager {
     var passedApplicantsList: [Person] = []
     
     mutating func cast(to talent: Person) throws {
+        print("<<오디션 참가자: \(talent.name)>>")
+        
         guard let talents: Talent = talent as? Talent else {
             print("안타깝지만 불합격입니다.")
             throw TalentTypeError.notTalent
