@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AA1ECA1B2C636B1F0062A5AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1ECA1A2C636B1F0062A5AD /* main.swift */; };
+		AA95B0FE2C64AE0700C7CDAC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B0FD2C64AE0700C7CDAC /* Person.swift */; };
+		AA95B1002C64AEC600C7CDAC /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B0FF2C64AEC600C7CDAC /* Level.swift */; };
+		AA95B1022C64AF1400C7CDAC /* Talent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1012C64AF1400C7CDAC /* Talent.swift */; };
+		AA95B1042C64AF8100C7CDAC /* BadPersonality.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1032C64AF8100C7CDAC /* BadPersonality.swift */; };
+		AA95B1062C64AFF900C7CDAC /* TalentedPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1052C64AFF900C7CDAC /* TalentedPerson.swift */; };
+		AA95B1082C64B0A300C7CDAC /* TalentedPersonWithBadPersonality.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1072C64B0A200C7CDAC /* TalentedPersonWithBadPersonality.swift */; };
+		AA95B10A2C64B13F00C7CDAC /* AuditionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1092C64B13F00C7CDAC /* AuditionManager.swift */; };
+		AA95B10C2C64B5B500C7CDAC /* TalentTypeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */; };
+		AA95B10E2C64C02000C7CDAC /* AuditionCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B10D2C64C02000C7CDAC /* AuditionCast.swift */; };
+		AA95B1102C64C58500C7CDAC /* MagicNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,16 @@
 /* Begin PBXFileReference section */
 		AA1ECA172C636B1F0062A5AD /* CodeStarterCamp_Week5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeStarterCamp_Week5; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1ECA1A2C636B1F0062A5AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AA95B0FD2C64AE0700C7CDAC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AA95B0FF2C64AEC600C7CDAC /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		AA95B1012C64AF1400C7CDAC /* Talent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talent.swift; sourceTree = "<group>"; };
+		AA95B1032C64AF8100C7CDAC /* BadPersonality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadPersonality.swift; sourceTree = "<group>"; };
+		AA95B1052C64AFF900C7CDAC /* TalentedPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentedPerson.swift; sourceTree = "<group>"; };
+		AA95B1072C64B0A200C7CDAC /* TalentedPersonWithBadPersonality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentedPersonWithBadPersonality.swift; sourceTree = "<group>"; };
+		AA95B1092C64B13F00C7CDAC /* AuditionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditionManager.swift; sourceTree = "<group>"; };
+		AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentTypeError.swift; sourceTree = "<group>"; };
+		AA95B10D2C64C02000C7CDAC /* AuditionCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditionCast.swift; sourceTree = "<group>"; };
+		AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,16 @@
 		AA1ECA192C636B1F0062A5AD /* CodeStarterCamp_Week5 */ = {
 			isa = PBXGroup;
 			children = (
+				AA95B0FD2C64AE0700C7CDAC /* Person.swift */,
+				AA95B0FF2C64AEC600C7CDAC /* Level.swift */,
+				AA95B1012C64AF1400C7CDAC /* Talent.swift */,
+				AA95B1032C64AF8100C7CDAC /* BadPersonality.swift */,
+				AA95B1052C64AFF900C7CDAC /* TalentedPerson.swift */,
+				AA95B1072C64B0A200C7CDAC /* TalentedPersonWithBadPersonality.swift */,
+				AA95B1092C64B13F00C7CDAC /* AuditionManager.swift */,
+				AA95B10D2C64C02000C7CDAC /* AuditionCast.swift */,
+				AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */,
+				AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */,
 				AA1ECA1A2C636B1F0062A5AD /* main.swift */,
 			);
 			path = CodeStarterCamp_Week5;
@@ -120,7 +150,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA95B10A2C64B13F00C7CDAC /* AuditionManager.swift in Sources */,
+				AA95B1002C64AEC600C7CDAC /* Level.swift in Sources */,
+				AA95B1062C64AFF900C7CDAC /* TalentedPerson.swift in Sources */,
+				AA95B1082C64B0A300C7CDAC /* TalentedPersonWithBadPersonality.swift in Sources */,
+				AA95B0FE2C64AE0700C7CDAC /* Person.swift in Sources */,
+				AA95B1102C64C58500C7CDAC /* MagicNumber.swift in Sources */,
+				AA95B10E2C64C02000C7CDAC /* AuditionCast.swift in Sources */,
 				AA1ECA1B2C636B1F0062A5AD /* main.swift in Sources */,
+				AA95B10C2C64B5B500C7CDAC /* TalentTypeError.swift in Sources */,
+				AA95B1042C64AF8100C7CDAC /* BadPersonality.swift in Sources */,
+				AA95B1022C64AF1400C7CDAC /* Talent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
