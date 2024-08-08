@@ -51,4 +51,5 @@ struct AuditionManager {
     축하합니다!!
     """)
     }
+    
 }
