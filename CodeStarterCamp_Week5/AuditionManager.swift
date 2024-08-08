@@ -34,4 +34,17 @@ struct AuditionManager {
             print("안타깝지만 불합격입니다.")
         }
     }
+    
+    func announcePassedApplicants() {
+        let passList = passedApplicantsList.map { (person: Person) -> String in
+            return "\(person.name)"
+        }
+        
+        print("""
+    ---합격자 명단---
+    \(passList.joined())
+    ------------
+    축하합니다!!
+    """)
+    }
 }
