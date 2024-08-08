@@ -24,3 +24,5 @@ do {
 } catch {
     print(error)
 }
+
+manager.announcePassedApplicants()
