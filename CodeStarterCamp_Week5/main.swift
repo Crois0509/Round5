@@ -13,6 +13,11 @@ var manager: AuditionManager = AuditionManager(totalApplicantsList: [yagom,
                                                                      finnn],
                                                passedApplicantsList: [])
 
+// 해커의 해킹 시뮬레이션
+let mySon = Person(name: "nalgangdo", height: 10000)
+let hacker = Hacker()
+hacker.hackPassedApplicantsList()
+
 for applicants in manager.totalApplicantsList {
     do {
         try manager.cast(to: applicants)
