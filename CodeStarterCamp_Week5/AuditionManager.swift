@@ -4,6 +4,10 @@ struct AuditionManager {
     var totalApplicantsList: [Person]
     var passedApplicantsList: [Person] = []
     
+    mutating func addToPassedApplicantsList(_ applicant: Person) {
+        passedApplicantsList.append(applicant)
+    }
+    
     mutating func cast(to talent: Person) throws {
         print("<<오디션 참가자: \(talent.name)>>")
         
