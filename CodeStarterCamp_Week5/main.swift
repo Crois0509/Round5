@@ -14,10 +14,9 @@ var manager: AuditionManager = AuditionManager(totalApplicantsList: [yagom,
                                                                      noroo,
                                                                      summer,
                                                                      jamking,
-                                                                     finnn],
-                                               passedApplicantsList: [])
+                                                                     finnn])
 
-hacker.hackPassedApplicantsList(cast: manager, mySon: mySon)
+hacker.hackPassedApplicantsList()
 // 해커의 해킹
 
 for applicants in manager.totalApplicantsList {
