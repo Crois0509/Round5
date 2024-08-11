@@ -18,6 +18,7 @@
 		AA95B10C2C64B5B500C7CDAC /* TalentTypeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */; };
 		AA95B1102C64C58500C7CDAC /* MagicNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */; };
 		AA95B1142C6895EA00C7CDAC /* Hacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1132C6895EA00C7CDAC /* Hacker.swift */; };
+		AA95B1162C689BBD00C7CDAC /* casting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B1152C689BBD00C7CDAC /* casting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentTypeError.swift; sourceTree = "<group>"; };
 		AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicNumber.swift; sourceTree = "<group>"; };
 		AA95B1132C6895EA00C7CDAC /* Hacker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker.swift; sourceTree = "<group>"; };
+		AA95B1152C689BBD00C7CDAC /* casting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = casting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				AA95B10B2C64B5B500C7CDAC /* TalentTypeError.swift */,
 				AA95B10F2C64C58500C7CDAC /* MagicNumber.swift */,
 				AA95B1132C6895EA00C7CDAC /* Hacker.swift */,
+				AA95B1152C689BBD00C7CDAC /* casting.swift */,
 				AA1ECA1A2C636B1F0062A5AD /* main.swift */,
 			);
 			path = CodeStarterCamp_Week5;
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA95B10A2C64B13F00C7CDAC /* AuditionManager.swift in Sources */,
+				AA95B1162C689BBD00C7CDAC /* casting.swift in Sources */,
 				AA95B1002C64AEC600C7CDAC /* Level.swift in Sources */,
 				AA95B1062C64AFF900C7CDAC /* TalentedPerson.swift in Sources */,
 				AA95B1082C64B0A300C7CDAC /* TalentedPersonWithBadPersonality.swift in Sources */,
