@@ -19,4 +19,4 @@ var manager: AuditionManager = AuditionManager(totalApplicantsList: [yagom,
 hacker.hackPassedApplicantsList()
 // 해커의 해킹
 
-casting(manager)
+casting(&manager)
