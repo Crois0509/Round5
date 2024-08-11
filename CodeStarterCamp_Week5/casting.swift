@@ -1,9 +1,9 @@
 import Foundation
 
-func casting(_ host: AuditionManager) {
+func casting(_ host: inout AuditionManager) {
     for applicants in host.totalApplicantsList {
         do {
-            try manager.cast(to: applicants)
+            try host.cast(to: applicants)
         } catch TalentTypeError.notTalent {
             print("불합격 사유: 탤런트가 아님")
             print(MagicNumber.blank)
@@ -18,5 +18,5 @@ func casting(_ host: AuditionManager) {
         }
     }
     
-    manager.announcePassedApplicants()
+    host.announcePassedApplicants()
 }
