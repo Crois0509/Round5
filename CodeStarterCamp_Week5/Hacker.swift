@@ -1,7 +1,7 @@
 import Foundation
 
 struct Hacker {
-    func hackPassedApplicantsList(cast: AuditionManager, mySon: Person) {
-        cast.passedApplicantsList.append(mySon)
+    func hackPassedApplicantsList(mySon: Person) {
+        let hackingCast = AuditionManager(totalApplicantsList: [mySon])
     }
 }

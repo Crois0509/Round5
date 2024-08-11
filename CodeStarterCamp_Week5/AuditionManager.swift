@@ -4,6 +4,10 @@ struct AuditionManager {
     private(set) var totalApplicantsList: [Person]
     private var passedApplicantsList: [Person] = []
     
+    init(totalApplicantsList: [Person]) {
+        self.totalApplicantsList = totalApplicantsList
+    }
+    
     mutating func addToPassedApplicantsList(_ applicant: Person) {
         passedApplicantsList.append(applicant)
     }
