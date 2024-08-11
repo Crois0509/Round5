@@ -6,12 +6,19 @@ let summer = TalentedPerson(name: "summer", height: 900, singing: .B, dancing: .
 let jamking = TalentedPerson(name: "jamking", height: 200, singing: .A, dancing: .C, acting: .C)
 let finnn = TalentedPersonWithBadPersonality(name: "finnn", height: 400, singing: .A, dancing: .A, acting: .A, frequancyOfCursing: .A)
 
+let hacker = Hacker()
+let mySon = Person(name: "nalgangdo", height: 10000)
+// 해커의 선언
+
 var manager: AuditionManager = AuditionManager(totalApplicantsList: [yagom,
                                                                      noroo,
                                                                      summer,
                                                                      jamking,
                                                                      finnn],
                                                passedApplicantsList: [])
+
+hacker.hackPassedApplicantsList(cast: manager, mySon: mySon)
+// 해커의 해킹
 
 for applicants in manager.totalApplicantsList {
     do {
@@ -29,6 +36,5 @@ for applicants in manager.totalApplicantsList {
         print(error)
     }
 }
-
 
 manager.announcePassedApplicants()
