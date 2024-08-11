@@ -1,8 +1,8 @@
 import Foundation
 
 struct AuditionManager {
-    var totalApplicantsList: [Person]
-    var passedApplicantsList: [Person] = []
+    private(set) var totalApplicantsList: [Person]
+    private var passedApplicantsList: [Person] = []
     
     mutating func addToPassedApplicantsList(_ applicant: Person) {
         passedApplicantsList.append(applicant)
