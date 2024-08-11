@@ -1,8 +1,12 @@
 import Foundation
 
 struct AuditionManager {
-    var totalApplicantsList: [Person]
-    var passedApplicantsList: [Person] = []
+    private(set) var totalApplicantsList: [Person]
+    private var passedApplicantsList: [Person] = []
+    
+    init(totalApplicantsList: [Person]) {
+        self.totalApplicantsList = totalApplicantsList
+    }
     
     mutating func cast(to talent: Person) throws {
         print("<<오디션 참가자: \(talent.name)>>")
